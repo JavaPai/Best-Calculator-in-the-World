@@ -14,7 +14,7 @@ def divide(a,b):
 	print "DIVIDING %d / %d" % (a,b)
 	return a / b
 
-def meat():	
+def calc():	
 	op = raw_input ("What operation would you like to do? ")
 
 	if op == "addition":
@@ -64,4 +64,4 @@ def meat():
 			meat()
 		else:
 			quit()
-meat()
+calc()
